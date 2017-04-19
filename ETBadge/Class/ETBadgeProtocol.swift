@@ -2,8 +2,8 @@
 //  ETBadgeProtocol.swift
 //  ETBadge
 //
-//  Created by hys on 2017/4/17.
-//  Copyright © 2017年 mmc. All rights reserved.
+//  Created by Volley on 2017/4/17.
+//  Copyright © 2017年 Elegant Team. All rights reserved.
 //
 
 import Foundation
