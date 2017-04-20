@@ -7,18 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D3D1E741EA852CA00015EE3 /* ETBadgeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3D1E721EA852CA00015EE3 /* ETBadgeProtocol.swift */; };
+		0D3D1E751EA852CA00015EE3 /* UIView+ETBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3D1E731EA852CA00015EE3 /* UIView+ETBadge.swift */; };
 		0D43951F1EA7526A0009F689 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D43951E1EA7526A0009F689 /* AppDelegate.swift */; };
 		0D4395211EA7526A0009F689 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4395201EA7526A0009F689 /* ViewController.swift */; };
 		0D4395241EA7526A0009F689 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D4395221EA7526A0009F689 /* Main.storyboard */; };
 		0D4395261EA7526A0009F689 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D4395251EA7526A0009F689 /* Assets.xcassets */; };
 		0D4395291EA7526A0009F689 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D4395271EA7526A0009F689 /* LaunchScreen.storyboard */; };
-		0D43953A1EA766D80009F689 /* ETBadgeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4395381EA766D80009F689 /* ETBadgeProtocol.swift */; };
-		0D43953B1EA766D80009F689 /* UIView+ETBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4395391EA766D80009F689 /* UIView+ETBadge.swift */; };
 		65BB8B9FCDF73F0E948C7742 /* Pods_ETBadge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8CA68DCA08301AE2198775B /* Pods_ETBadge.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		00CE644C79E5F7455121684B /* Pods-ETBadge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ETBadge.release.xcconfig"; path = "Pods/Target Support Files/Pods-ETBadge/Pods-ETBadge.release.xcconfig"; sourceTree = "<group>"; };
+		0D3D1E721EA852CA00015EE3 /* ETBadgeProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ETBadgeProtocol.swift; sourceTree = "<group>"; };
+		0D3D1E731EA852CA00015EE3 /* UIView+ETBadge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+ETBadge.swift"; sourceTree = "<group>"; };
 		0D43951B1EA7526A0009F689 /* ETBadge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ETBadge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D43951E1EA7526A0009F689 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0D4395201EA7526A0009F689 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,8 +28,6 @@
 		0D4395251EA7526A0009F689 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D4395281EA7526A0009F689 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D43952A1EA7526B0009F689 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0D4395381EA766D80009F689 /* ETBadgeProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ETBadgeProtocol.swift; sourceTree = "<group>"; };
-		0D4395391EA766D80009F689 /* UIView+ETBadge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+ETBadge.swift"; sourceTree = "<group>"; };
 		C7D33EFE410F477BE7712C49 /* Pods-ETBadge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ETBadge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ETBadge/Pods-ETBadge.debug.xcconfig"; sourceTree = "<group>"; };
 		C8CA68DCA08301AE2198775B /* Pods_ETBadge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ETBadge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -44,6 +44,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D3D1E711EA852CA00015EE3 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				0D3D1E721EA852CA00015EE3 /* ETBadgeProtocol.swift */,
+				0D3D1E731EA852CA00015EE3 /* UIView+ETBadge.swift */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
 		0D4395121EA7526A0009F689 = {
 			isa = PBXGroup;
 			children = (
@@ -67,22 +76,13 @@
 			children = (
 				0D43951E1EA7526A0009F689 /* AppDelegate.swift */,
 				0D4395201EA7526A0009F689 /* ViewController.swift */,
-				0D4395371EA766D80009F689 /* Class */,
+				0D3D1E711EA852CA00015EE3 /* Class */,
 				0D4395221EA7526A0009F689 /* Main.storyboard */,
 				0D4395251EA7526A0009F689 /* Assets.xcassets */,
 				0D4395271EA7526A0009F689 /* LaunchScreen.storyboard */,
 				0D43952A1EA7526B0009F689 /* Info.plist */,
 			);
 			path = ETBadge;
-			sourceTree = "<group>";
-		};
-		0D4395371EA766D80009F689 /* Class */ = {
-			isa = PBXGroup;
-			children = (
-				0D4395381EA766D80009F689 /* ETBadgeProtocol.swift */,
-				0D4395391EA766D80009F689 /* UIView+ETBadge.swift */,
-			);
-			path = Class;
 			sourceTree = "<group>";
 		};
 		3A26603692739D65C963EAC3 /* Pods */ = {
@@ -226,9 +226,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D4395211EA7526A0009F689 /* ViewController.swift in Sources */,
-				0D43953A1EA766D80009F689 /* ETBadgeProtocol.swift in Sources */,
+				0D3D1E741EA852CA00015EE3 /* ETBadgeProtocol.swift in Sources */,
 				0D43951F1EA7526A0009F689 /* AppDelegate.swift in Sources */,
-				0D43953B1EA766D80009F689 /* UIView+ETBadge.swift in Sources */,
+				0D3D1E751EA852CA00015EE3 /* UIView+ETBadge.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

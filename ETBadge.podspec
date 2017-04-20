@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "ETBadge"
-  s.version      = “1.0.1”
+  s.version      = "1.0.1"
   s.summary      = "A tool to add or clear badge for any UIView."
   s.homepage     = "https://github.com/VolleyZ/ETBadge"
   s.license      = { :type => "MIT", :file => "LICENSE" }
