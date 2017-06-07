@@ -91,7 +91,7 @@ extension UIView {
             return
         }
         
-        let super_view: UIView = self.superview == nil ? self : self.superview!
+        let super_view: UIView = self
         super_view.addSubview(badge)
         super_view.bringSubview(toFront: badge)
         

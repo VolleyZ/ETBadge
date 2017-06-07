@@ -62,7 +62,12 @@ class ViewController: UIViewController {
     
     @IBAction func showBadge(_ sender: Any) {
         
-        setBadge()
+        label1.resumeBadge()
+        redDotBtn.resumeBadge()
+        newStyleBtn.resumeBadge()
+        rightNavBtn.resumeBadge()
+        leftBadgeLabel.resumeBadge()
+        rightUpCornerLabel.resumeBadge()
     }
     
     
